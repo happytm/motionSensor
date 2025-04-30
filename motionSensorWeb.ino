@@ -10,7 +10,9 @@ const char* password = "";
 int sensitivity = 30;  // Adujust sensitivity of motion sensor.
 int sampleBufSize = 64, AvgSize = 32, varThreshold = 3, varIntegratorLimit = 3; // Tweak according to requirement.
 
-// ==== MOTION DETECTOR SETTINGS ====
+// ==================================== No need to change settings below this line ===================================================|
+//====================================================================================================================================|
+
 #define MAX_sampleSize 256
 #define MAX_AVERAGEBUFFERSIZE 64
 #define MAX_VARIANCE 65535
